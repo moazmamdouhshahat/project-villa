@@ -7,7 +7,8 @@
     <!-- ============== this My style ================================== -->
     <link rel="stylesheet" href="./css/index.css" />
     <!-- =========================== this bootstrap  style=========================  -->
-    <link rel="stylesheet"href="./bootstrap-5.3.2/bootstrap-5.3.2/dist/css/bootstrap.min.css"/>
+    <!-- <link rel="stylesheet"href="./bootstrap-5.3.2/bootstrap-5.3.2/dist/css/bootstrap.min.css"/> -->
+    <link rel="stylesheet" href="./bootstrap-4.6.2-dist/bootstrap-4.6.2-dist/css/bootstrap.css">
     <!--  =========================== this fonwos =================== -->
     <link rel="stylesheet" href=".//css/all.min.css">
   </head>
@@ -31,73 +32,96 @@
           <div class="line"> </div>
       <!------------------------------ strat navnar 2 ------------------------------  -->
 
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container">
-          <a class="navbar-brand" href="#">VILLA</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Properties</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Property Details</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
+
+
+
+
+
+      <nav class="navbar navbar-expand-lg ">
+        <a class="navbar-brand log" href="#">VILLA</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto md-2 md-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Properties</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Property Details</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+          <form class="form-inline ">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
         </div>
       </nav>
+
+
+
+
+
+
+
+
+
+
       <!------------------------------ end navnar  2------------------------------  -->  
       <!-- ================================ start slidr ==================================== -->
+
+
+
+
       <div class="slide">
-        <div id="carouselExample" class="carousel slide">
-          <div class="carousel-inner">
-            <div class="carousel-item active card1 ">
-              <div class="text-heding">
-                <div class="text"><h6>Melbourne, <em>Australia</em></h6></div>  
-              
-                   <h2>Be Quick! <br> Get the best villa in town</h2>
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active card1 ">
+            <div class="text-heding">
+
+              <div class="text"><h6>Melbourne, <em>Australia</em></h6></div>  
             
-            </div>
-            </div>
-            <div class="carousel-item card2">
-              <div class="text-heding">
-                <div class="text"><h6>Toronto,<em>Canada</em></h6></div>  
-              
-                <h2>Act Now! <br> Get the highest level penthouse</h2>
-            
-            </div>
-            </div>
-            <div class="carousel-item card3">
-              <div class="text-heding">
-                <div class="text"><h6>Miami,<em>South Florida</em></h6></div>  
-                   <h2>Hurry!  <br> Get the Best Villa for you</h2>
-            
-            </div>
-            </div>
+                 <h2>Be Quick! <br> Get the best villa in town</h2>
+          
+           </div>
+
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+          <div class="carousel-item card2">
+            <div class="text-heding">
+              <div class="text"><h6>Toronto,<em>Canada</em></h6></div>  
+            
+              <h2>Act Now! <br> Get the highest level penthouse</h2>
+          
+          </div>
+          </div>
+          <div class="carousel-item card3">
+
+            <div class="text-heding">
+              <div class="text"><h6>Miami,<em>South Florida</em></h6></div>  
+                 <h2>Hurry!  <br> Get the Best Villa for you</h2>
+          
+          </div>
+                    
+          </div>
         </div>
+       <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </button>
       </div>
+    </div>
       <!-- ================================ end slidr ==================================== -->
 
     </section>
@@ -122,16 +146,33 @@
         <h1 class="mt-5">
           Best Appartment & Sea View
         </h1>
-        <div class="dropdown">
-          <div class="btn-group ">
-            <button type="button" class="btn Best" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+        <!-- ================================================================================== start   dropdown    ========================== === -->
+       
+   
+          
+      
+
+          <div class="dropdown">
+            <a class="btn  dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
               Best useful links ?
-            </button>
-            <ul class="dropdown-menu dropdown-menu-lg-end">
-              <li><button class="main" type="button">Get the best villa website template in HTML CSS and Bootstrap for your business. TemplateMo provides you the best free CSS templates in the world. Please tell your friends about it.</button></li>
+            </a>
+          
+            <ul class="dropdown-menu dropdown-menu-lg-end  group ">
+              <li><button class="main  Best" type="button">Get the best villa website template in HTML CSS and Bootstrap for your business. TemplateMo provides you the best free CSS templates in the world. Please tell your friends about it.</button></li>
             </ul>
           </div>
-   
+
+
+
+
+
+
+
+
+
+
+
+
           <div class="btn-group ">
             <button type="button" class="btn Best " data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
               How does this work ?
@@ -140,6 +181,9 @@
               <li><button class="main" type="button">Dolor almesit amet, consectetur adipiscing elit, sed doesn't eiusmod tempor incididunt ut labore consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..</button></li>
             </ul>
           </div>
+
+
+
         
           <div class="btn-group ">
             <button type="button" class="btn Best " data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
@@ -155,6 +199,10 @@
           </ul>
         </div>
        </div>
+
+        <!-- ================================================================================== end   dropdown    ========================== === -->
+
+       
        <div class="col-lg-4 col-md-12 col-sm-12 card4">
         
         <div class="card mb-3 " style="max-width: 540px;">
@@ -270,10 +318,26 @@
  </section>
     <!-- ===================== end section 3 ========================== -->
 
+
+
+
+
+    <!-- ===================== start section 4 ========================== -->
+   <section class="section4">
+
+   </section>
+
+
+    <!-- ===================== end section 4 ========================== -->
+
+
     <!-- ============================= this my js ============================= -->
     <script src="./js/index.js"></script>
     <!-- =========================== this bootstrap js  =================================-->
-    <script src="./bootstrap-5.3.2/bootstrap-5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="./bootstrap-5.3.2/bootstrap-5.3.2/dist/js/bootstrap.bundle.min.js"></script> -->
+    <script src="./js/cdnjs.cloudflare.com_ajax_libs_popper.js_1.12.9_umd_popper.min.js"></script>
+    <script src="./js/code.jquery.com_jquery-3.2.1.slim.min.js"></script>
+    <script src="./js/maxcdn.bootstrapcdn.com_bootstrap_4.0.0_js_bootstrap.min.js"></script>
   </body>
 </html>
 rgba(252, 116, 66, 0.432)
