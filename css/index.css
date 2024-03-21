@@ -311,7 +311,7 @@ font-size: 35px;
         height: 12%;
     }
 }
-@media(max-width:360px){
+@media(max-width:394px){
 
     .section2 .container .row {
         height: 80%;
@@ -543,7 +543,7 @@ font-size: 35px;
         height: 109vh;
     }
 }
-@media (max-width:360px) {
+@media (max-width:394px) {
 .section3{
     width: 100%;
 }
@@ -599,7 +599,19 @@ font-size: 35px;
     background-color: black;
     margin-top: 30px;
 }
-
+.section4 .container{
+    width: 100%;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+.BEST-DEAL{
+    width: 400px;
+    height: 200px;
+    background-color: blue;
+}
+.BEST-DEAL p{
+    color: orangered;
+}
 
 
 /*========================================================================= end section 4 ========================================================  */
