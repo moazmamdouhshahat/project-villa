@@ -311,7 +311,7 @@ font-size: 35px;
         height: 12%;
     }
 }
-@media(max-width:394px){
+@media(max-width:400px){
 
     .section2 .container .row {
         height: 80%;
@@ -342,9 +342,12 @@ font-size: 35px;
             margin-top: -57px;
             margin-left: -1px;
         }
+        .section2 .container .row .card4 {
+        width: 100%;
+        }
         .section2 {
-            width: 98%;
-            height: 254vh;
+            width: 96%;
+            height: 217vh;
             background-color: white;
             margin-top: 40px;
         }
@@ -552,11 +555,14 @@ font-size: 35px;
         height: 30%;
         margin: 12% auto;
     }
-    .section3 .imaga-vidoe .icon-vidoe i {
-        color: white;
-        font-size: 38px;
-        padding: 9px;
-    }
+    .section3 .imaga-vidoe .icon-vidoe {
+        width: 16%;
+        height: 25%;
+        background-color: rgba(255, 68, 0, 0.507);
+        margin: 22% auto;
+        text-align: center;
+        border-radius: 50%;
+    }   
     .section3 .imaga-vidoe {
         background-color: aliceblue;
         width: 100%;
@@ -564,6 +570,11 @@ font-size: 35px;
         position: absolute;
         margin-top: 65%;
         margin-left: 0px;
+    }
+    .section3 .imaga-vidoe .icon-vidoe i {
+        color: white;
+        font-size: 41px;
+        padding: 9px;
     }
     .section3 .chlid .bild .border {
         width: 56px;
@@ -579,8 +590,7 @@ font-size: 35px;
         height: 354px;
         margin-bottom: 0px;
         background-color: blue;
-        margin-top: 129%;
-        margin-left: 13%;
+        margin-top: 135%;
     }
 }
 
