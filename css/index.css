@@ -311,6 +311,45 @@ font-size: 35px;
         height: 12%;
     }
 }
+@media(max-width:360px){
+
+    .section2 .container .row {
+        height: 80%;
+        width: 110%;
+    }
+    .section2 .container .row .images .icon {
+        width: 48px;
+        height: 77px;
+        background-color: rgb(238, 63, 0);
+        text-align: center;
+        /* padding-top: 21px; */
+        border-radius: 91px;
+        position: absolute;
+        /* margin-top: -89px; */
+        margin-left: -6px;
+    }
+    .section2 .container .row .images .icon a img{
+            margin-top: -6px;
+        }
+        .section2 .container .row .images .icon {
+            width: 55px;
+            height: 77px;
+            background-color: rgb(238, 63, 0);
+            text-align: center;
+            /* padding-top: 21px; */
+            border-radius: 91px;
+            position: absolute;
+            margin-top: -57px;
+            margin-left: -1px;
+        }
+        .section2 {
+            width: 98%;
+            height: 254vh;
+            background-color: white;
+            margin-top: 40px;
+        }
+
+}
 
 /* ============================================= start media ==========================================================  */
 
@@ -504,6 +543,47 @@ font-size: 35px;
         height: 109vh;
     }
 }
+@media (max-width:360px) {
+.section3{
+    width: 100%;
+}
+    .section3 .imag-text .vidoe-text {
+        width: 92%;
+        height: 30%;
+        margin: 12% auto;
+    }
+    .section3 .imaga-vidoe .icon-vidoe i {
+        color: white;
+        font-size: 38px;
+        padding: 9px;
+    }
+    .section3 .imaga-vidoe {
+        background-color: aliceblue;
+        width: 100%;
+        height: 26%;
+        position: absolute;
+        margin-top: 65%;
+        margin-left: 0px;
+    }
+    .section3 .chlid .bild .border {
+        width: 56px;
+        height: 56px;
+        background-color: orangered;
+        border-radius: 50%;
+        margin-top: -121px;
+        margin-left: 209px;
+    } 
+    .section3 .chlid {
+        position: absolute;
+        width: 83%;
+        height: 354px;
+        margin-bottom: 0px;
+        background-color: blue;
+        margin-top: 129%;
+        margin-left: 13%;
+    }
+}
+
 /*========================================================================= end section 3 ========================================================  */
 
 
