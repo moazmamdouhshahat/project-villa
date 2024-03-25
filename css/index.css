@@ -73,7 +73,7 @@ font-size: 20px;
 background-color: orange;
 color:blue;
 border-radius: 40px;
-
+text-align: center;
 }
 /* ------------------- start slide ======================================================== */
 .section1 .slide{
@@ -272,6 +272,7 @@ border-radius: 40px;
 .section2 .container .row .card4{
         box-shadow: 10px 10px 10px 10px  #b4b2b2 ;
 }
+
 .section2 .container .row .card .imaga img{
 
 height: 60%;
@@ -280,7 +281,7 @@ margin:25px;
 }
 .card-body h1{
     font-weight: bold;
-font-size: 35px;    
+font-size: 25px;    
 
 }
 /* ============================================= start media ==========================================================  */
@@ -484,7 +485,7 @@ font-size: 35px;
 }
 .section3 {
     width: 100%;
-    height: 129vh;
+    height: 137vh;
     background-color:white;
 }
 .section3 .chlid {
@@ -582,7 +583,7 @@ font-size: 35px;
         background-color: orangered;
         border-radius: 50%;
         margin-top: -118px;
-        margin-left: 226px;
+        margin-left: 239px;
     } 
     .section3 .chlid {
         position: absolute;
@@ -605,23 +606,170 @@ font-size: 35px;
 
 
 .section4{
-    width: 100%;height: 100vh;
-    background-color: black;
+    width: 100%;
+    height: 80vh;
+    background-color: rgba(180, 175, 175, 0.473);
     margin-top: 30px;
 }
-.section4 .container{
+.section4 .container-fluid{
     width: 100%;
-    height: 100vh;
-    background-color: antiquewhite;
+}
+.section4 .container-fluid .row{
+    width: 100%;
+
 }
 .BEST-DEAL{
-    width: 400px;
-    height: 200px;
-    background-color: blue;
+    width: 100%;
+    position: absolute;
+    
 }
 .BEST-DEAL p{
     color: orangered;
 }
+.BEST-DEAL p,h1{
+ padding-left: 40px;
+ padding-top: 20px;
+}
+.section4 .container-fluid .row .parint{
+    width: 100%;
 
+}
+.nav-pills{
+    margin-top: 120px;
+}
+.nav-pills .nav-item .nav-link{
+    width: 250px;
+    border-radius: 30px;
+}
+.section4 .container-fluid .child {
+    width: 100%;
+    height: 74%;
+ }
+ 
+ 
+.section4 .container-fluid .child .tab-content{
+    width: 100%;
+    height: 80%;
+}
+.section4 .container-fluid .child .tab-content .item1{
+    width: 100%;
+    height:100% ;
+}
 
+.section4 .container-fluid .child .tab-content .item1 .row {
+    justify-content: space-between  ;
+}
+.section4 .container-fluid .child .tab-content .item1 .row .Card-navs
+{
+
+    width: 100%;
+}
+.section4 .container-fluid .child .tab-content .item1 .row .Card-navs .card {
+    width: 60%;
+    box-shadow: 1px 4px 10px 10px #585656;
+    margin: auto;
+    margin-top: 22px;
+}
+
+     .section4 .container-fluid .child .tab-content .item1 .row .Card-navs .card .list-group .list-group-item {
+        padding-top: 10px;
+        display:flex;
+    } 
+    .section4 .container-fluid .child .tab-content .item1 .row .Card-navs .card .list-group .list-group-item h2{
+        padding-left: 50px;
+        margin: auto;
+
+    }
+    .section4 .container-fluid .child .tab-content .item1 .imaga-navs{
+        width: 170%;
+       /* background-size: 1005 100%; */
+    }  
+    .section4 .container-fluid .child .tab-content .item1 .imaga-navs {
+        width: 170%;
+        margin-left: -159px;
+         margin-top: 22px;
+        }
+    .section4 .container-fluid .child .tab-content .item1 .text-navs{
+    
+        margin-top: 22px;
+
+        }
+            .section4 .container-fluid .child .tab-content .item1 .text-navs h5 {
+        margin-bottom: 31px;
+        margin-top: 29px;
+    }
+
+    /*  ----------------------- start media laptop  ------------------------------ */
+    @media (max-width:768px) {
+        .section4 .container-fluid .row {
+            width: 100%;
+            height: 20%;
+            margin-bottom: 10px;
+        }
+        .BEST-DEAL {
+            width: 100%;
+            position: absolute;
+            text-align: center;
+        }
+        .section4 .container-fluid .row .parint {
+            width: 100%;
+            margin-top: 11px;
+        }
+        
+        .nav-pills {
+            margin-top: 0px;
+        }
+        .nav-pills .nav-item .nav-link {
+            width: 232px;
+            height: 60px;
+            border-radius: 30px;
+        }
+        .section4 .container-fluid .child {
+    width: 100%;
+    /* height: 74%; */
+}
+.section4 .container-fluid .child .tab-content .item1 .imaga-navs {
+    margin-left: 0px;
+    margin-top: 21px;
+}
+.section4 .container-fluid .child .tab-content .item1 .imaga-navs img {
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+}
+.section4 .container-fluid .child .tab-content .item1 .row .Card-navs .card {
+    width: 100%;
+    box-shadow: 1px 4px 10px 10px #585656;
+    margin: auto;
+    margin-top: 22px;
+}
+.section4 .container-fluid .child .tab-content .item1 .row .Card-navs .card .list-group .list-group-item h2 {
+    padding-left: 438px;
+    margin: auto;
+}
+ 
+
+}
+
+/* =======================================start media phone ================ */
+@media (max-width:425px) {
+    
+    .section4 {
+        width: 100%;
+        height: 164vh;
+        background-color: rgba(180, 175, 175, 0.473);
+        margin-top: 30px;
+    }
+    .section4 .container-fluid .child .tab-content .item1 .row .Card-navs .card .list-group .list-group-item h2 {
+        padding-left: 72px;
+        margin: auto;
+    }
+    .BEST-DEAL h1{
+        font-size: 25px;
+    }
+    .nav-pills .nav-item .nav-link{
+        margin-left: 44px;
+    }
+    
+}
 /*========================================================================= end section 4 ========================================================  */
