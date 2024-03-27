@@ -660,12 +660,14 @@ font-size: 25px;
     height: 80vh;
     background-color: rgba(180, 175, 175, 0.473);
     margin-top: 30px;
+    margin-bottom: 10px;
 }
 .section4 .container-fluid{
     width: 100%;
 }
 .section4 .container-fluid .row{
     width: 100%;
+    margin-top: 10px;
 
 }
 .BEST-DEAL{
@@ -751,6 +753,10 @@ font-size: 25px;
 
     /*  ----------------------- start media laptop  ------------------------------ */
     @media (max-width:768px) {
+        
+.section4 {
+    width: 100%;
+    height: 176vh;}
         .section4 .container-fluid .row {
             width: 100%;
             height: 20%;
@@ -823,3 +829,126 @@ font-size: 25px;
     
 }
 /*========================================================================= end section 4 ========================================================  */
+
+
+
+/*========================================================================= start  section 5 ========================================================  */
+ .section5{
+    width: 100%;
+    height: 140vh;
+    margin-top: 50px;
+ }
+ .section5 .container{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+ }
+ .section5 .container .row{
+    margin-top: -40px;
+ }
+ .section5 .container .text-card{
+    width: 50%;
+    height: 20%;
+    /* background-color: aquamarine; */
+    margin: auto;
+    text-align: center;
+
+ }
+
+ .card .card-img{
+    width: 90%;
+    margin: auto ;
+    margin-top: 10px;
+    border-radius: 20px;
+ }
+ .section5 .container .text-card p{
+    color: rgb(255, 69, 1);
+ }
+.card-title{
+    /* background-color: blue; */
+    display: flex;
+    color: white;
+}
+.card-title h6{
+    background-color: rgba(255, 69 , 1);
+    padding: 10px;
+    border-radius: 20px;
+
+}
+.card-title p{
+    padding-left: 70px;
+    color: rgba(255, 68, 1);
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+
+.card-body .link  a{
+  text-decoration: none;
+  color:black;
+}
+.Bedrooms {
+    display:flex;
+}
+.Bedrooms span{
+    color: black;
+    font-weight: bold;
+}
+ .card-body .border {
+    margin: 10px;
+ }
+ .card-body .btn{
+    margin-left: 67px;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+}
+.card-body .btn:hover{
+    background-color: orangered;
+    color: aliceblue;
+}
+/* ================================================ @ media  laptop =================================================================  */
+@media (max-width:768px) {
+    .section5 {
+        width: 100%;
+        height: 205vh;
+        margin-top: 50px;
+    }
+    .section5 .container .row {
+        margin-top: -83px;
+    }
+
+    .section5 .container .text-card{
+        height: 9%;
+        width: 55%;
+    }
+    .section5 .container .text-card h1
+    {
+    font-size: 25px;    
+    }
+    .section5 .container .text-card p{
+        margin: 0px;
+    }
+    
+}
+@media (max-width:425px) {
+    .section5 .container .text-card {
+        height: 9%;
+        width: 91%;
+    }
+    .section5 .container .text-card p{
+        margin: -10px;
+    }
+    .section5 .container .row {
+        margin-top: -83px;
+        margin: auto;
+        margin-top: -38px;
+    }
+    .section5{
+        height: auto;
+    }
+    
+}
+/*========================================================================= end section 5 ========================================================  */
