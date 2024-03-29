@@ -52,6 +52,7 @@ font-size: 20px;
 }
 .navbar-expand-lg {
     justify-content: center;
+    
 }
 .navbar{
     width: 80%;
@@ -842,6 +843,7 @@ font-size: 25px;
     width: 100%;
     height: 100%;
     background-color: white;
+    
  }
  .section5 .container .row{
     margin-top: -40px;
@@ -899,7 +901,7 @@ font-size: 25px;
     margin: 10px;
  }
  .card-body .btn{
-    margin-left: 67px;
+    margin-left: 64px;
     background-color: black;
     border-radius: 20px;
     color: white;
@@ -915,6 +917,9 @@ font-size: 25px;
         width: 100%;
         height: 205vh;
         margin-top: 50px;
+    }
+    .section5 .container{
+        margin: inherit;
     }
     .section5 .container .row {
         margin-top: -83px;
@@ -943,7 +948,6 @@ font-size: 25px;
     }
     .section5 .container .row {
         margin-top: -83px;
-        margin: auto;
         margin-top: -38px;
     }
     .section5{
@@ -952,3 +956,240 @@ font-size: 25px;
     
 }
 /*========================================================================= end section 5 ========================================================  */
+/* -======================================================== start section 6 ----============================================================================ */
+.section6{
+    width: 100%;
+    height: 110vh;
+    margin-top: 5%;
+
+}
+.section6 .imag-text{
+    width: 100%;
+    height: 60%;
+    background-image: url(../images/contact-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.section6 .imag-text .vidoe-text{
+    width: 25%;
+    height: 30%;
+    margin:  auto;
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+}
+.section6 .imag-text .vidoe-text p{
+    color: orangered;
+}
+.section6 .Contact{
+    height: 60%;
+    width: 95%;
+    margin:20px auto;
+    /* background-color: black; */
+}
+.section6 .Contact .row {
+    width: 100%;
+    justify-content:space-evenly;
+}
+.section6 .Contact .row .map{
+width: 100%;
+}
+.section6 .Contact .row .map iframe{
+    width: 85%;
+    border-radius: 50px;
+}
+.section6 .Contact .row .map .phone{
+    width: 85%;
+    margin-top: 10px;
+    /* height: 20%; */
+    /* background-color: black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.section6 .Contact .row .map .phone .phone2{
+    width: 45%;
+    height: 100%;
+    box-shadow: 1px 4px 5px 2px #2c2c2c;
+
+}
+.section6 .Contact .row .map .phone .phone2 .card{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.section6 .Contact .row .map .phone .card .no-gutters{
+    width: 100%;
+}
+.section6 .Contact .row .map .phone  .card .no-gutters .img{
+    width: 20%;
+    height: 100%;
+}
+.section6 .Contact .row .map .phone .phone2 .card .no-gutters .img img
+{
+width: 100%;
+height: 80%;   
+} 
+.section6 .Contact .row .map .phone .card .no-gutters .card-body{
+    width: 60%;
+    height: 100%;
+    text-align: center;
+}
+.section6 .Contact .row .map .phone  .email{
+    width:45%;
+    height: 100%;
+    box-shadow: 1px 4px 5px 2px #2c2c2c;
+}
+.section6 .Contact .row .map .phone  .email .card{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+
+}
+.section6 .Contact .row .map .phone .email .card .no-gutters{
+    width: 100%;
+}
+.section6 .Contact .row .map .phone .email .card .no-gutters .img{
+    width: 20%;
+    height: 100%;
+}
+.section6 .Contact .row .map .phone .email .card .no-gutters .img img
+{
+width: 100%;
+height: 50%;
+margin-top: 20px;   
+} 
+.section6 .Contact .row .map .phone .email .card .no-gutters .card-body{
+    width: 60%;
+    height: 100%;
+    text-align: center;
+}
+.content-name{
+width: 50%;
+ background-color: rgb(238, 235, 235);
+ border-radius:40px;
+}
+.section6 .content-name form a{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    height: auto;
+    font-weight: bold;
+}
+.section6 .content-name form a:hover{
+    background-color: orangered;
+}
+.form-group label{
+    font-weight: bold;
+}
+/* ===================================== start medil ================================================================= */
+@media (max-width:768px) {
+    .section6 .imag-text .vidoe-text {
+        width: 47%;
+        height: 30%;
+        margin: auto;
+        text-align: center;
+        color: white;
+    
+        padding-top: 5%;}
+        .section6 .Contact {
+            height: 60%;
+            width: 94%;
+            /* background-color: black; */
+            margin-top: -50%;
+        }
+        
+.section6 .Contact .row {
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.section6 .Contact .row .map {
+    height: 90%;
+    width: 100%;
+    margin-left: 44px;
+}
+    
+}
+@media (max-width:400px) {
+    .section6 .Contact {
+        height: 60%;
+        width: 94%;
+        /* background-color: black; */
+        margin-top: -87%;
+    }
+    .section6 .Contact .row {
+        /* width: 100%; */
+        height: 100%;
+        justify-content: space-evenly;
+        margin: auto;
+    }
+    .section6 {
+        width: 100%;
+        height: 120vh;
+        margin-top: 5%;
+        background-color: orchid;
+    }
+    
+    
+    .section6 .Contact .row .map .phone .phone2 {
+        width: 122%;
+        height: 100%;
+        box-shadow: 1px 4px 5px 2px #2c2c2c;
+    }
+    .section6 .Contact .row .map .phone .email {
+        width: 110%;
+        height: 100%;
+    }
+    .section6 .Contact .row .map iframe {
+        width: 93%;
+        border-radius: 50px;
+    }
+    .section6 .Contact .row .map {
+        width: 100%;
+        margin-left: 10px;
+    }
+    .section6 .imag-text .vidoe-text {
+        width: 95%;
+        /* margin: auto; */
+        text-align: center;
+        color: white;
+        padding-top: 10%;
+    }
+   
+    .section6 .Contact .row .map .phone .phone2 {
+        width: 122%;
+        box-shadow: 1px 4px 5px 2px #2c2c2c;
+        margin-bottom: 10px;
+    }
+   
+    .section6 {
+        width: 100%;
+        height: 184vh;
+        margin-top: 5%;
+    }
+    .section6 .imag-text {
+        width: 100%;
+        height: 37%;
+        background-image: url(../images/contact-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .section6 .Contact .row .map iframe {
+        width: 93%;
+        /* height: 80%; */
+        border-radius: 50px;
+    }
+    .content-name {
+        width: 50%;
+        /* height: 90%; */
+        background-color:white;
+        /* margin-top: 42%; */
+        margin-top: -96px;
+    }
+}
+
+/* ===================================== end medil ================================================================= */
+/* ================================================ end section 6 ========================================== */
