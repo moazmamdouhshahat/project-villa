@@ -1135,7 +1135,7 @@ width: 50%;
     
     .section6 .Contact .row .map .phone .phone2 {
         width: 122%;
-        height: 100%;
+        height: 90%;
         box-shadow: 1px 4px 5px 2px #2c2c2c;
     }
     .section6 .Contact .row .map .phone .email {
@@ -1166,7 +1166,7 @@ width: 50%;
    
     .section6 {
         width: 100%;
-        height: 184vh;
+        height: 187vh;
         margin-top: 5%;
     }
     .section6 .imag-text {
@@ -1186,7 +1186,7 @@ width: 50%;
         height: 90%;
         width: 100%;
         margin-left: 44px;
-        margin-bottom: 14px;
+        margin-bottom: 20px;
     }
     .content-name {
         width: 50%;
