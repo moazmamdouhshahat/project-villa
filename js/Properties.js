@@ -7,7 +7,6 @@ function print(id){
     let bed1 =document.getElementById("bed"+id).innerText;
     let badrooms =document.getElementById("badrooms"+id).innerText;
   
-     
        let Object ={
         'image' : image,
           'titi':titi,
@@ -17,8 +16,10 @@ function print(id){
       'badrooms':badrooms,
        }
 
-       localStorage.setItem('Product'+ id ,JSON.stringify(Object))
+       console.log(image);
       //  console.log(localStorage);
+      localStorage.setItem('product' + id , JSON.stringify(Object) );
+
  }
 
  

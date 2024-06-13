@@ -1,4 +1,4 @@
-// localStorage.clear();
+// localStorage.clear(); 
 let allproducts = document.getElementById('allproducts')
 let noproduct = document.getElementById('noproduct')
 //  console.log(noproduct,allproducts);
@@ -24,7 +24,7 @@ for (let i = 0; i < localStorage.length; i++) {
         </a></div>
       <div class="Bedrooms mt-2" style="margin-left: 20%;">
       ${data.bed1}
-        <i class="fa-solid fa-trash-can  delete ${data.titi}" style="margin-left: 40%; color: black; font-size: 40px;" ></i>
+        <i class="fa-solid fa-trash-can  delete ${data.titi}" style="margin-left: 30%; color: black; font-size: 40px;" ></i>
       </div>
       <div class="Bedrooms" style="margin-left: 40px; font-size: 20px; color:black">
       ${data.badrooms}
@@ -49,18 +49,20 @@ else{noproduct.display.style='block'};
 
 
 // delete
-document.addEventListener ( 'click' , (e)=>{
+document.addEventListener( 'click' , (e)=>{
 
 
-  if(e.target.classList.contains('delete'))
-  { 
+  if( e.target.classList.contains('delete')){
 
-   let Productname = e.target.classList[3];
-   localStorage.removeItem(Productname)
+
+  let productname=e.target.classList[2];
+      console.log('productname');
    console.log(localStorage);
-  //  window.location.reload();
 
-     
+  
+   localStorage.removeItem(productname);
   } 
 
 } )
+
+
