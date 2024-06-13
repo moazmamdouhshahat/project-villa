@@ -1,4 +1,4 @@
-// localStorage.clear(); 
+localStorage.clear(); 
 let allproducts = document.getElementById('allproducts')
 let noproduct = document.getElementById('noproduct')
 //  console.log(noproduct,allproducts);
