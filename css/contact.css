@@ -298,7 +298,7 @@ margin-top: 30px;
 /* ========================================================  END section2  ==============================================================  */
 
 /* start media */
-@media (max-width:412px) {
+@media (max-width:425px) {
     .section1 .main .child {
         width: 92%;
         height: 50%;
