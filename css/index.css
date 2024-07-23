@@ -1082,6 +1082,9 @@ width: 50%;
 .form-group label{
     font-weight: bold;
 }
+.moaz{
+    font-size: 500px
+}
 /* ===================================== start medil ================================================================= */
 @media (max-width:768px) {
     .section6 .imag-text .vidoe-text {
