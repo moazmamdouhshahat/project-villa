@@ -184,9 +184,13 @@
     }
     .section1 .main .child h1 {
       font-weight: bold;
-      font-size: 29px;
+      font-size: 26px;
       color: aliceblue;
       margin-top: 24px;
+  }
+  .section1 .main .child .a {
+    height: 43px;
+    width: 189px;
   }
 }
 

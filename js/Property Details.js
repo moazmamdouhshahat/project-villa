@@ -1,12 +1,12 @@
-localStorage.clear(); 
+// localStorage.clear();  
 let allproducts = document.getElementById('allproducts')
 let noproduct = document.getElementById('noproduct')
 //  console.log(noproduct,allproducts);
-
+// console.log(localStorage);
 for (let i = 0; i < localStorage.length; i++) {
   // console.log(localStorage);
-  let product = localStorage.getItem(localStorage.key(i))
-  let data = JSON.parse(product)
+  let vlienema = localStorage.getItem(localStorage.key(i))
+  let data = JSON.parse(vlienema)
   allproducts.innerHTML += `
       <div class="card mb-3">
       <div class="row no-gutters">
@@ -16,7 +16,7 @@ for (let i = 0; i < localStorage.length; i++) {
          <div class="col-md-8 card-body">
        <div class="">
       <div class=card-title>
-        <h6>${data.titi}</h6>
+        <h6>${data.title}</h6>
         <p> ${data.price}</p>
       </div>
       <div class="link"> <a href="">
@@ -24,7 +24,7 @@ for (let i = 0; i < localStorage.length; i++) {
         </a></div>
       <div class="Bedrooms mt-2" style="margin-left: 20%;">
       ${data.bed1}
-        <i class="fa-solid fa-trash-can  delete ${data.titi}" style="margin-left: 30%; color: black; font-size: 40px;" ></i>
+        <i <i class="fa-solid fa-trash-can delete ${data.title}"style="margin-left: 30%; color: black; font-size: 40px;" ></i>
       </div>
       <div class="Bedrooms" style="margin-left: 40px; font-size: 20px; color:black">
       ${data.badrooms}
@@ -36,33 +36,28 @@ for (let i = 0; i < localStorage.length; i++) {
   </div>
       </div>
     </div>
-  
-      
       `
-
 }
-// display
-if(allproducts.childElementCount >0 ){
-  noproduct.style.display ='none';
+
+if (allproducts.childElementCount > 0) {
+  noproduct.style.display='none'
 }
-else{noproduct.display.style='block'};
+else{noproduct.style.display='block'};
 
 
-// delete
-document.addEventListener( 'click' , (e)=>{
+//  delet
 
-
-  if( e.target.classList.contains('delete')){
-
-
-  let productname=e.target.classList[2];
-      console.log('productname');
-   console.log(localStorage);
-
+document.addEventListener( 'click' ,(e)=> {
+  if( e.target.classList.contains('delete') ){
+      
+    console.log(e.target.classList);
+    let productname=e.target.classList[4]
   
-   localStorage.removeItem(productname);
-  } 
-
-} )
+    localStorage.removeItem(productname)
+      console.log(localStorage);
 
 
+      //  window.location.reload()
+      // // console.log(e.target.classlist);
+  }
+})
